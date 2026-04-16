@@ -41,6 +41,15 @@ Built an end-to-end analytics workflow:
 
 ---
 
+## Business Insight
+
+- Top categories contribute majority of revenue  
+- Sales dip observed mid-year, followed by recovery  
+- Forecast indicates steady growth in upcoming months  
+- Business should prioritize high-performing categories for scaling  
+
+---
+
 ## Tech Stack
 
 * Python (Pandas, NumPy, Scikit-learn)
