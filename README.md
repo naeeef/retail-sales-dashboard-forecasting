@@ -27,12 +27,6 @@ Built an end-to-end analytics workflow:
 
 ---
 
-## Dashboard
-
-![Dashboard](images/dashboard.png)
-
----
-
 ## Key Insights
 
 * Sales show seasonal fluctuations with mid-year decline and strong recovery
