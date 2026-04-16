@@ -1,126 +1,79 @@
-&#x20;**Retail Sales Analytics \& Forecasting Dashboard**
+# Retail Sales Analytics & Forecasting Dashboard
 
+## Overview
 
+This project analyzes retail sales data to extract trends, identify high-performing categories, and forecast future revenue using Python and Power BI.
 
-**Overview**
+---
 
-End-to-end data analytics project that transforms raw retail sales data into actionable insights and future revenue forecasts using Python and Power BI.
+## Problem
 
+Retail businesses generate large volumes of sales data but lack clear visibility into:
 
+* Monthly performance trends
+* Category-wise revenue contribution
+* Future sales projections
 
-&#x20;**Objective**
+---
 
-Analyze historical sales data to identify trends, evaluate category performance, and forecast future revenue for data-driven decision-making.
+## Solution
 
+Built an end-to-end analytics workflow:
 
+* Data cleaning and transformation using Python
+* Sales trend analysis and aggregation
+* Forecasting future sales using regression
+* Interactive dashboard in Power BI
 
-**Tech Stack**
+---
 
-\- Python (Pandas, NumPy, Scikit-learn)
+## Dashboard
 
-\- Power BI
+![Dashboard](images/dashboard.png)
 
-\- CSV (Data Storage)
+---
 
+## Key Insights
 
+* Sales show seasonal fluctuations with mid-year decline and strong recovery
+* Clothing and Groceries drive highest revenue
+* Forecast indicates steady upward growth in upcoming months
 
+---
 
+## Tech Stack
 
+* Python (Pandas, NumPy, Scikit-learn)
+* Power BI
+* CSV
 
+---
 
-&#x20;**Workflow**
+## Project Structure
 
-1\. Data Cleaning \& Preprocessing  
+* `analysis.py` → Data processing and forecasting
+* `dashboard.pbix` → Power BI dashboard
+* `data/` → Raw dataset
+* `outputs/` → Processed data files
+* `images/` → Dashboard visuals
 
-2\. Exploratory Data Analysis (EDA)  
+---
 
-3\. Monthly Sales Aggregation  
+## How to Run
 
-4\. Category-wise Revenue Analysis  
-
-5\. Forecasting using Linear Regression  
-
-6\. Dashboard Creation in Power BI  
-
-
-
-
-
-**Project Structure**
-
-
-
-retail-sales-analytics/
-
-│
-
-├── data/
-
-│ └── retail\_sales.csv
-
-│
-
-├── outputs/
-
-│ ├── category\_revenue.csv
-
-│ ├── monthly\_sales.csv
-
-│ ├── forecast.csv
-
-│ └── combined\_sales.csv
-
-│
-
-├── images/
-
-│ └── dashboard.png
-
-│
-
-├── dashboard.pbix
-
-├── analysis.py
-
-└── README.md
-
-
-
-**Key Insights**
-
-\- Revenue shows seasonal fluctuation with mid-year dips and year-end growth  
-
-\- Certain product categories dominate total revenue contribution  
-
-\- Forecast indicates a steady upward trend in upcoming months  
-
-\- Sales performance is driven more by \[price/volume — edit based on your finding]  
-
-
-
-\---
-
-
-
-&#x20;**Outputs Generated**
-
-\- Category-wise revenue breakdown  
-
-\- Monthly sales trend  
-
-\- Customer contribution (Pareto analysis)  
-
-\- Forecasted sales for next 6 months  
-
-
-
-\---
-
-
-
-**How to Run (cmd)**
-
-pip install -r requirements.txt
-
+```bash
+pip install pandas numpy scikit-learn
 python analysis.py
+```
 
+---
+
+## Outcome
+
+Transforms raw retail data into actionable insights and forecasts, enabling better business decisions.
+
+---
+
+## Author
+
+Mohammed Naef Nazar
